@@ -27,7 +27,7 @@ class ExcelExporterIncludingHeader extends ExcelExporter
 		}
 
 		if ( !is_null( $p_header ) ) {
-			array_unshift( &$p_data, $p_header );
+			array_unshift( $p_data, $p_header );
 		}
 
 		parent::addWorkSheet( $p_title, $p_data );
