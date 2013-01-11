@@ -5,7 +5,7 @@ class ArrayExportExcelPlugin extends MantisPlugin {
 		$this->name = 'Array export to Excel';
 		$this->description = 'This plugin allows to easily export PHP arrays to Excel.';
 
-		$this->version = '0.2';
+		$this->version = '0.3';
 		$this->requires = array(
 			'MantisCore' => '1.2.0'
 		);

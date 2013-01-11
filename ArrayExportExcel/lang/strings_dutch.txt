@@ -1,0 +1,3 @@
+<?php
+   $s_plugin_ArrayExportExcel_export_to_excel = 'Exporteer naar Excel';
+   $s_plugin_ArrayExportExcel_immediate_export = 'Onmiddellijk exporteren naar Excel';
